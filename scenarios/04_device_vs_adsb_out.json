@@ -1,0 +1,22 @@
+{
+  "name": "Traffic with ADS-B Out only",
+  "table_row": "Device vs ADS-B Out",
+  "description": "No negotiation possible: one-sided advisory, auto-avoid if ignored.",
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "N123",
+      "equipment": "adsb",
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 90,
+      "conflict_in_s": 70
+    }
+  ]
+}

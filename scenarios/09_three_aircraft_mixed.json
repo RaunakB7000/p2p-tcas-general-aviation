@@ -1,0 +1,32 @@
+{
+  "name": "Three aircraft: device pair + ADS-B crossing",
+  "table_row": "Mixed",
+  "description": "Head-on pair negotiates while ADS-B-only traffic crosses.",
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "U2",
+      "equipment": "device",
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 180,
+      "conflict_in_s": 70,
+      "miss_m": 30
+    },
+    {
+      "id": "N789",
+      "equipment": "adsb",
+      "speed_kt": 120,
+      "alt_ft": 5000,
+      "heading": 250,
+      "conflict_in_s": 80,
+      "miss_m": 400
+    }
+  ]
+}

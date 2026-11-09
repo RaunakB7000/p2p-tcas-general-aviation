@@ -1,0 +1,22 @@
+{
+  "name": "Converging: both have our device",
+  "table_row": "Device vs Device",
+  "description": "Rule of the air alone is not enough; units negotiate a better pair of turns.",
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "U2",
+      "equipment": "device",
+      "speed_kt": 110,
+      "alt_ft": 5000,
+      "heading": 270,
+      "conflict_in_s": 70
+    }
+  ]
+}

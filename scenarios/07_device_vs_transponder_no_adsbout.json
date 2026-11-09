@@ -1,0 +1,22 @@
+{
+  "name": "Transponder-only traffic, no TIS-B",
+  "table_row": "Device (no ADS-B Out) vs Transponder only",
+  "description": "We only hear its transponder: altitude and rough range, no direction. Proximity alert only; no automatic avoidance possible.",
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "N456",
+      "equipment": "transponder",
+      "speed_kt": 110,
+      "alt_ft": 5000,
+      "heading": 135,
+      "conflict_in_s": 70
+    }
+  ]
+}

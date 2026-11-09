@@ -1,0 +1,28 @@
+{
+  "name": "P2P link down: ADS-B Out as backup",
+  "table_row": "Device + ADS-B Out vs Device + ADS-B Out",
+  "description": "Our radio link fails; each unit still sees the other on ADS-B and avoids one-sidedly.",
+  "options": {
+    "lora_down": true
+  },
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "adsb_out": true,
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "U2",
+      "equipment": "device",
+      "adsb_out": true,
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 180,
+      "conflict_in_s": 70,
+      "miss_m": 30
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Head-on: both have our device",
+  "table_row": "Device vs Device",
+  "description": "Units negotiate over P2P radio: both turn right.",
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "U2",
+      "equipment": "device",
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 180,
+      "conflict_in_s": 70,
+      "miss_m": 30
+    }
+  ]
+}

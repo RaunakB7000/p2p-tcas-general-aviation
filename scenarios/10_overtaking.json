@@ -1,0 +1,23 @@
+{
+  "name": "Overtaking a slower aircraft",
+  "table_row": "Device vs Device",
+  "description": "Slow closure: the distance trigger fires before the time trigger, as in TCAS.",
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "speed_kt": 140,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "U2",
+      "equipment": "device",
+      "speed_kt": 80,
+      "alt_ft": 5000,
+      "heading": 0,
+      "x_m": 20,
+      "y_m": -500
+    }
+  ]
+}

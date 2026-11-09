@@ -1,0 +1,22 @@
+{
+  "name": "Airliner with TCAS, descending",
+  "table_row": "Device vs TCAS aircraft",
+  "description": "Our unit warns (traffic advisory). The airliner's TCAS climbs; we see the climb on ADS-B and stand down. If we ever need to act vs a TCAS aircraft: turn only, never climb/descend.",
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "AAL12",
+      "equipment": "tcas",
+      "speed_kt": 250,
+      "heading": 210,
+      "vz_fpm": -800,
+      "conflict_in_s": 70
+    }
+  ]
+}

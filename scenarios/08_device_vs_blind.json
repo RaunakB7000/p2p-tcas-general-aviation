@@ -1,0 +1,23 @@
+{
+  "name": "Blind aircraft: no electronics",
+  "table_row": "Device vs Nothing",
+  "description": "Invisible to every electronic system, TCAS included. See-and-avoid is the last layer.",
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "adsb_out": true,
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "CUB1",
+      "equipment": "none",
+      "speed_kt": 75,
+      "alt_ft": 5000,
+      "heading": 250,
+      "conflict_in_s": 70
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Transponder-only traffic, seen via radar (TIS-B)",
+  "table_row": "Device + ADS-B Out vs Transponder only",
+  "description": "Because we have ADS-B Out, ground stations rebroadcast radar tracks. Noisy and slow (every 5 s), so wider margins.",
+  "aircraft": [
+    {
+      "id": "U1",
+      "equipment": "device",
+      "adsb_out": true,
+      "speed_kt": 100,
+      "alt_ft": 5000,
+      "heading": 0
+    },
+    {
+      "id": "N456",
+      "equipment": "transponder",
+      "speed_kt": 110,
+      "alt_ft": 5000,
+      "heading": 135,
+      "conflict_in_s": 70
+    }
+  ]
+}
